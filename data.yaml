@@ -1,0 +1,175 @@
+base:
+  name: Spirit Island (Base Game)
+  spirits:
+    lightning:
+      name: Lightning's Swift Strike
+      complexity: 0
+      powers:
+        offense: 8
+        control: 3
+        fear: 4
+        defense: 1
+        utility: 3
+      scenario-handicaps:
+        rituals-destroying-flame: 1
+      adversary-handicaps:
+        france: -1
+    river:
+      name: River Surges in Sunlight
+      complexity: 0
+      powers:
+        offense: 5
+        control: 8
+        fear: 1
+        defense: 1
+        utility: 5
+      scenario-handicaps:
+        dahan-insurrection: -1
+    vital-strength:
+      name: Vital Strength of the Earth
+      complexity: 0
+      powers:
+        offense: 2
+        control: 3
+        fear: 1
+        defense: 8
+        utility: 3
+      scenario-handicaps:
+        rituals-destroying-flame: -1
+        guard-isles-heart: 1
+        blitz: 1
+    shadows:
+      name: Shadows Flicker Like Flame
+      complexity: 0
+      powers:
+        offense: 6
+        control: 4
+        fear: 8
+        defense: 1
+        utility: 1
+      scenario-handicaps:
+        rituals-destroying-flame: -1
+    thunderspeaker:
+      name: Thunderspeaker
+      complexity: 1
+      powers:
+        offense: 6
+        control: 8
+        fear: 3
+        defense: 2
+        utility: 1
+      scenario-handicaps:
+        powers-long-forgotten: -1
+        rituals-terror: -1
+        dahan-insurrection: -1
+    rampant:
+      name: A Spread of Rampant Green
+      complexity: 1
+      powers:
+        offense: 4
+        control: 3
+        fear: 2
+        defense: 8
+        utility: 4
+      scenario-handicaps:
+        guard-isles-heart: -1
+    bringer:
+      name: Bringer of Dreams and Nightmares
+      complexity: 2
+      powers:
+        offense: 1
+        control: 3
+        fear: 8
+        defense: 3
+        utility: 3
+      scenario-handicaps:
+        guard-isles-heart: 1
+      adversary-handicaps:
+        france: 1
+    ocean:
+      name: Ocean's Hungry Grasp
+      complexity: 2
+      powers:
+        offense: 7
+        control: 5
+        fear: 5
+        defense: 3
+        utility: 2
+      scenario-handicaps:
+        ward-the-shores: -1
+  blight-cards: 2
+  scenarios:
+    guard-isles-heart:
+      name: Guard the Isle's Heart
+      difficulty: 0
+      adversary-handicaps:
+        brandenburg-prussia: 1
+    blitz:
+      name: Blitz
+      difficulty: 0
+      adversary-handicaps:
+        brandenburg-prussia: 1
+    rituals-terror:
+      name: Rituals of Terror
+      difficulty: 3
+    dahan-insurrection:
+      name: Dahan Insurrection
+      difficulty: 4
+      adversary-handicaps:
+        england: 1
+  adversaries:
+    england:
+      name: The Kingdom of England
+      difficulty: [1, 3, 4, 6, 7, 9, 10]
+    brandenburg-prussia:
+      name: The Kingdom of Brandenburg-Prussia
+      difficulty: [1, 2, 4, 6, 7, 9, 10]
+    sweden:
+      name: The Kingdom of Sweden
+      difficulty: [1, 2, 3, 5, 6, 7, 8]
+branch-and-claw:
+  name: Branch and Claw
+  spirits:
+    sharp-fangs:
+      name: Sharp Fangs Behind the Leaves
+      complexity: 1
+      powers:
+        offense: 5
+        control: 5
+        fear: 6
+        defense: 3
+        utility: 1
+      scenario-handicaps:
+        rituals-destroying-flame: 1
+    keeper:
+      name: Keeper of the Forbidden Wilds
+      complexity: 1
+      powers:
+        offense: 8
+        control: 4
+        fear: 2
+        defense: 7
+        utility: 4
+      scenario-handicaps:
+        rituals-destroying-flame: -1
+  blight-cards: 7
+  scenarios:
+    powers-long-forgotten:
+      name: Powers Long Forgotten
+      difficulty: 1
+    rituals-destroying-flame:
+      name: Rituals of the Destroying Flame
+      difficulty: 3
+    second-wave:
+      name: Second Wave
+      difficulty: 0
+    ward-the-shores:
+      name: Ward the Shores
+      difficulty: 2
+      adversary-handicaps:
+        brandenberg-prussia: 1
+  adversaries:
+    france:
+      name: The Kingdom of France (Plantation Colony)
+      difficulty: [2, 3, 5, 7, 8, 9, 10]
+
