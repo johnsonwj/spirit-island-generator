@@ -78,7 +78,7 @@ def pick_spirit(pref, available_spirits, power_balance):
         choices = list(available_spirits)
 
     if power_balance:
-        for p in power_balance.copy().reverse():
+        for p in power_balance[::-1]:
             choices = sorted(choices, key=lambda s: available_spirits[s]['powers'][p])
         return choices[0]
 
